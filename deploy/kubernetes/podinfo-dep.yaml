@@ -6,7 +6,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    woo: asdasd
+    matchLabels:
+      app: podinfo
   template:
     metadata:
       labels:
