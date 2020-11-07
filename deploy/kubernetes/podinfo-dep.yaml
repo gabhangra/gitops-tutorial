@@ -5,6 +5,7 @@ metadata:
   name: podinfo
 spec:
   replicas: 1
+  selector: asdasd
   template:
     metadata:
       labels:
